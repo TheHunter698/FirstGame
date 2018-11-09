@@ -1,0 +1,33 @@
+
+
+
+@font-face{
+    font-family: "Romantiques";
+    src: url(../Romantiques.otf);
+}
+
+p{
+    font-family: "Romantiques";
+    font-size: 24px;
+    left: 32%;
+    bottom: 50%;
+}
+#mainDiv{
+    text-align: center;
+}
+#enterButton{
+    border-radius: 12px;
+    padding: 14px;
+    position: absolute;
+    top: 50%;
+    right: 42%;
+}
+
+/*Editing the fade transition that jquery executes */
+.fade{ 
+    opacity: 1;
+    transition: .75s ease-in-out;
+    -moz-transition: opacity .75s ease-in-out;
+    -webkit-transition: opacity .75s ease-in-out;
+}
+

@@ -1,0 +1,193 @@
+
+/*Start Page */
+#startPage{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 71%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#button1, #button2, #button3{
+    margin: 50px;
+    padding: 15px;
+    width: 303px;
+    border-radius: 40px;
+    box-shadow: -1px -10px;
+    color: black;
+    background: red;
+    border: 1px solid black;
+}
+#button1:hover{
+    
+    color: red;
+    background: black;
+    border: 1px solid red;
+    box-shadow: none;
+    
+}
+#button2:hover{
+    color: red;
+    background: black;
+    border: 1px solid red;
+    box-shadow: none;
+}
+#button3:hover{
+    color: red;
+    background: black;
+    border: 1px solid red;
+    box-shadow: none;
+}
+
+
+
+/*This exit button is a shared id */
+#exitButton{
+    opacity: 1;
+    position: relative;
+    top: 90%;
+    left: 73%;
+    padding: 12px;
+    border-radius: 63px;
+    border: 3px solid black;
+    background: red;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+#exitButton:hover{
+    box-shadow: 5px 5px red;
+    background: black;
+    color: red;
+    border-color: red;
+}
+
+
+/*Hammer */
+#animatedDiv{
+    width: 32px;
+    height: 10px;
+    background: gold;
+    border-radius: 10px;
+    position: relative;
+    top: 58%;
+    left: 48.5%;
+    
+}
+
+#actionAnimation{
+    opacity: 1;
+    position: absolute;
+    top: 66%;
+    left: 47%;
+    height: 90px;
+    width: 90px;
+    color:black;
+    background: black;
+    border-radius: 50%;
+    border: 11px solid red;
+    
+  }
+#secret{
+    position: absolute;
+    top: 101%;
+    left: -0.5%;
+    opacity: 0.2;
+}
+
+/*Shoot*/
+
+#div1 > img{
+    width: 3%;
+}
+#div2 > img{
+    width: 7%;
+}
+#div3 > img{
+    width: 12%;
+}
+#shoot{
+    display: block;
+    height: 100%;
+    background: url(../images/gamesBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#shoot p{
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+}
+
+/* Clown styles */
+
+#clown{
+    display: block;
+    height: 100%;
+    background: url(../images/gamesBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#jokeHolder{
+    position: relative;
+    top: 50%;
+    left: 37%;
+    width: 500px;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+#answerButton{
+    opacity: 1;
+    top: 55%;
+    position: relative;
+    left: 45%;
+    background: green;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 19px;
+    color: white;
+    font-size: 20px;
+}
+
+#jokeButton{
+    opacity: 1;
+    position: relative;
+    top: 55%;
+    left: 30%;
+    background: blue;
+    border: 1px solid green;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 19px;
+}
+
+#jokeButton:hover{
+    background: green;
+    border-color: blue;
+    color: white;
+}
+
+#answerButton:hover{
+    background: blue;
+    border-color: green;
+    color: white;
+}
+
+#PP{
+
+    color: rgb(201, 166, 88);
+    width: 35%;
+    height: 9%;
+    position: relative;
+    top: 9%;
+    left: 43%;
+    font-size: 35px;
+}
